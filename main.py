@@ -25,7 +25,6 @@ def shift_color(c, arr):
 
 
 def loop():
-    global rgb26
     M5.update()
     arr = [0] * 24
     while True:
