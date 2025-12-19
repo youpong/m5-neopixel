@@ -5,11 +5,10 @@ from hardware import RGB
 
 
 rgb26 = None
-tuple0 = None
 
 
 def setup():
-    global rgb26, tuple0
+    global rgb26
 
     M5.begin()
     Widgets.setRotation(0)
@@ -26,7 +25,7 @@ def shift_color(c, arr):
 
 
 def loop():
-    global rgb26, tuple0
+    global rgb26
     M5.update()
     arr = [0] * 24
     while True:
