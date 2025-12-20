@@ -1,14 +1,28 @@
 # StartSignal
-A BBC micro:bit project — a reaction time measurement app inspired by the F1
-start signal, five lights illuminate in sequence; when the lights out, it's 
-the start signal.
-
-![sample screen](./screen.png)
+A sample project that drives NeoPixels using the M5StickC Plus by M5Stack Technology.
 
 ## Development Environment
-This program runs in MicroPython within the 
-[micro:bit Python Editor](https://python.microbit.org/v/3). (Not tested in 
-Python within the [MakeCode editor](https://makecode.microbit.org/#editor))
+This program runs in MicroPython within the [UiFlow2](https://uiflow2.m5stack.com).
+
+## Setup
+### Install USB Driver
+* Install the FTDI driver.
+
+### Burn Firmware
+* Install M5Burner.
+* Burn firmware.
+
+### Download the program
+* Using UiFlow2, download the program to the M5StickC Plus.
+
+### Connect the M5StickC Plus and NeoPixel
+connect as follows.
+
+| M5StickC Plus | NeoPixel |
+|---------------|----------|
+| GND           | GND |
+| 5V            | VCC |
+| G26           | DIN |
 
 ## Setting up a Python Development Environment
 
@@ -43,8 +57,7 @@ $ flake8 source_files...
 ```
 
 ## References
-* https://github.com/youpong/StartSignaljs ported to JavaScript(TypeScript).
-* https://github.com/youpong/StartSignal-Duel for two players.
+* https://github.com/youpong/mb-neopixel - A similar project for the BBC micro:bit
 
 ## License
 
