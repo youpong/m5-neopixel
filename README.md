@@ -15,6 +15,14 @@ This program runs in MicroPython within the [UiFlow2](https://uiflow2.m5stack.co
 ### Add RGB Hardware
 In UiFlow2, add RGB hardware.
 
+### Edit main.py
+
+Modify the following constants to match your NeoPixel device. For example, if
+the number of NeoPixels is 8:
+```python
+PIXEL_NUM = 8
+```
+
 ### Download the program
 * Using UiFlow2, download the program to the M5StickC Plus.
 
