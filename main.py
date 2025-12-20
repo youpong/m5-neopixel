@@ -14,11 +14,10 @@ def setup():
     Widgets.setRotation(0)
     Widgets.fillScreen(0x000000)
 
-    rgb26 = RGB(io=26, n=24, type="WS2812")
+    rgb26 = RGB(io=26, n=24, type="WS2812") # Neopixel
 
 
 def shift_color(c, arr):
-    print(c)
     arr[:] = [c] + arr[:-1]
     for i, c in enumerate(arr):
         rgb26.set_color(i, c)
