@@ -68,7 +68,10 @@ $ flake8 source_files...
 ```
 
 ## References
-* https://github.com/youpong/mb-neopixel - A similar project for the BBC micro:bit
+- M5Stack. *StickC Plus Product Documentation*.  
+  https://docs.m5stack.com/en/core/m5stickc_plus
+- A similar project for the BBC micro:bit:
+  https://github.com/youpong/mb-neopixel
 
 ## License
 
