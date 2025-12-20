@@ -12,6 +12,9 @@ This program runs in MicroPython within the [UiFlow2](https://uiflow2.m5stack.co
 * Install M5Burner.
 * Burn firmware.
 
+### Add RGB Hardware
+In UiFlow2, add RGB hardware.
+
 ### Download the program
 * Using UiFlow2, download the program to the M5StickC Plus.
 
