@@ -1,4 +1,4 @@
-# StartSignal
+# m5-neopixel
 A sample project that drives NeoPixels using the M5StickC Plus by M5Stack Technology.
 
 ## Development Environment
