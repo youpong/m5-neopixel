@@ -5,6 +5,7 @@ from hardware import RGB
 
 
 PIXEL_NUM = 24
+PIN = 26
 rgb = None
 
 
@@ -15,7 +16,7 @@ def setup():
     Widgets.setRotation(0)
     Widgets.fillScreen(0x000000)
 
-    rgb = RGB(io=26, n=PIXEL_NUM, type="WS2812")  # Neopixel
+    rgb = RGB(io=PIN, n=PIXEL_NUM, type="WS2812")  # Neopixel
 
 
 def shift_color(c, arr):
