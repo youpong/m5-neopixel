@@ -2,7 +2,8 @@
 A sample project that drives NeoPixels using the M5StickC Plus by M5Stack Technology.
 
 ## Development Environment
-This program runs in MicroPython within the [UiFlow2](https://uiflow2.m5stack.com).
+This program runs in MicroPython within the [UIFlow2](https://uiflow2.m5stack.com).
+Tested on UIFlow2 v2.4.0.
 
 ## Setup
 ### Install USB Driver
@@ -13,7 +14,7 @@ This program runs in MicroPython within the [UiFlow2](https://uiflow2.m5stack.co
 * Burn firmware.
 
 ### Add RGB Hardware
-In UiFlow2, add RGB hardware.
+In UIFlow2, add RGB hardware.
 
 ### Edit main.py
 
@@ -24,7 +25,7 @@ PIXEL_NUM = 8
 ```
 
 ### Download the program
-* Using UiFlow2, download the program to the M5StickC Plus.
+* Using UIFlow2, download the program to the M5StickC Plus.
 
 ### Connect the M5StickC Plus and NeoPixel
 connect as follows.
