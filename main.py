@@ -5,17 +5,17 @@ from hardware import RGB
 
 
 PIXEL_NUM = 24
-rgb26 = None
+rgb = None
 
 
 def setup():
-    global rgb26
+    global rgb
 
     M5.begin()
     Widgets.setRotation(0)
     Widgets.fillScreen(0x000000)
 
-    rgb26 = RGB(io=26, n=PIXEL_NUM, type="WS2812")  # Neopixel
+    rgb = RGB(io=26, n=PIXEL_NUM, type="WS2812")  # Neopixel
 
 
 def shift_color(c, arr):
@@ -23,7 +23,7 @@ def shift_color(c, arr):
     if len(arr) > PIXEL_NUM:
         arr.pop()
     for i, c in enumerate(arr):
-        rgb26.set_color(i, c)
+        rgb.set_color(i, c)
 
 
 def loop():
