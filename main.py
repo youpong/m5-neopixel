@@ -19,14 +19,16 @@ def setup():
 
 
 def shift_color(c, arr):
-    arr[:] = [c] + arr[:-1]
+    arr.insert(0, c)
+    if len(arr) > PIXEL_NUM:
+        arr.pop()
     for i, c in enumerate(arr):
         rgb26.set_color(i, c)
 
 
 def loop():
     M5.update()
-    arr = [0] * 24
+    arr = []
     while True:
         ax, ay, az = Imu.getAccel()
         c = int(256 * abs(ax) / 2)
