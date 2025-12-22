@@ -70,6 +70,8 @@ $ flake8 source_files...
 ## References
 - M5Stack. *StickC Plus Product Documentation*.  
   https://docs.m5stack.com/en/core/m5stickc_plus
+- A similar project developed with Arduino IDE:
+  https://github.com/youpong/m5-neopixel-sketch  
 - A similar project for the BBC micro:bit:
   https://github.com/youpong/mb-neopixel
 
