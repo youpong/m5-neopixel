@@ -29,9 +29,11 @@ def loop():
     arr = [0] * 24
     while True:
         ax, ay, az = Imu.getAccel()
-        c = int(255 * abs(ax) / 2)
-        c = int(c * 256 + 255 * abs(ay) / 2)
-        c = int(c * 256 + 255 * abs(az) / 2)
+        c = int(256 * abs(ax) / 2)
+        c *= 256
+        c = int(256 * abs(ay) / 2)
+        c *= 256
+        c = int(255 * abs(az) / 2)
         shift_color(c, arr)
 
 
